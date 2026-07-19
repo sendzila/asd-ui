@@ -21,7 +21,8 @@
     "@types/react-dom": "^19.1.0",
     "tailwindcss": "^4.1.0",
     "@tailwindcss/vite": "^4.1.0",
-    "vite": "^6.3.0"
+    "vite": "^6.3.0",
+    "typescript": "^5.8.0"
   },
   "scripts": {
     "ladle": "ladle serve",
