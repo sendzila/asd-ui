@@ -1,11 +1,13 @@
-# @sendzila/ui
+# @asd/ui
 
 The design system for **data-dense developer tools** — dense tables, mono data
-idioms, status systems, hairline aesthetics. Built for and battle-tested by
-the [Sendzila](https://sendzila.com) dashboard; usable by anyone.
+idioms, status systems, hairline aesthetics. An independent product; its first
+and hardest-working consumer is the [Sendzila](https://sendzila.com) dashboard.
+
+> Parent-brand codename `asd` — package and repo rename at LLC registration.
 
 ```bash
-npm install @sendzila/ui
+npm install @asd/ui
 ```
 
 ## What makes it different
@@ -17,7 +19,7 @@ npm install @sendzila/ui
 - **Token-contract theming.** Components consume token *names*
   (`--color-brand`, `--color-edge`, `--radius-control`…); redefine the values
   and the whole system reskins. A neutral default theme ships in the box
-  (`@sendzila/ui/default-theme.css`).
+  (`@asd/ui/default-theme.css`).
 - **No locked strings.** Every user-facing string is a prop — localize in any
   framework, any language.
 - **A11y as a floor, not a feature.** WCAG 2.2 AA: real tablist/radiogroup
@@ -27,15 +29,15 @@ npm install @sendzila/ui
 ## Use
 
 ```tsx
-import { Button, Tabs, TableSkeleton, ErrorState } from "@sendzila/ui";
-import "@sendzila/ui/default-theme.css"; // or your own token values
-import "@sendzila/ui/ui.css";
+import { Button, Tabs, TableSkeleton, ErrorState } from "@asd/ui";
+import "@asd/ui/default-theme.css"; // or your own token values
+import "@asd/ui/ui.css";
 ```
 
 Tailwind v4 consumers: add `@source` for the package so utilities compile:
 
 ```css
-@source "../node_modules/@sendzila/ui/src";
+@source "../node_modules/@asd/ui/src";
 ```
 
 ## Component workshop
