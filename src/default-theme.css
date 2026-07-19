@@ -1,0 +1,33 @@
+/* Neutral default theme — the kit renders complete without any brand.
+   Consumers override by loading their own values for the same token names
+   (that's the theming API). Sendzila itself uses @sendzila/theme instead. */
+@theme {
+  --font-sans: ui-sans-serif, system-ui, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", monospace;
+  --color-bg: #0b0c0e;
+  --color-raised: #121316;
+  --color-overlay: #17181c;
+  --color-inset: #070809;
+  --color-edge: #24262b;
+  --color-edge-strong: #303239;
+  --color-ink: #ececee;
+  --color-ink-dim: #9a9ba3;
+  --color-ink-mute: #62636b;
+  --color-brand: #6c8cff;
+  --color-brand-hover: #86a0ff;
+  --color-brand-ink: #0a1030;
+  --color-ok: #4ade80;
+  --color-ok-dim: #12241a;
+  --color-info: #7dd3fc;
+  --color-info-dim: #10222b;
+  --color-warn: #fbbf24;
+  --color-warn-dim: #292112;
+  --color-bad: #f87171;
+  --color-bad-dim: #2b1517;
+  --color-grape: #d8b4fe;
+  --color-grape-dim: #221434;
+  --color-neutral: #a1a1aa;
+  --color-neutral-dim: #1c1c1f;
+  --radius-card: 10px;
+  --radius-control: 7px;
+}
